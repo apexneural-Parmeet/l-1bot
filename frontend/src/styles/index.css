@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+/* Light-first, enterprise-grade color system. No pure black. */
+@theme {
+  /* Foundation */
+  --color-bg: #F7F8FA;
+  --color-surface: #FFFFFF;
+  --color-panel: #F1F3F6;
+  --color-panel-subtle: #E9ECF1;
+  --color-border: #D6DAE1;
+  /* Text */
+  --color-text: #1F2937;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280;
+  --color-text-disabled: #9CA3AF;
+  /* Primary action = Human / Indigo */
+  --color-primary: #4F46E5;
+  --color-primary-hover: #4338CA;
+  /* AI = Teal */
+  --color-ai: #2CB1BC;
+  --color-ai-bg: #E6F6F7;
+  --color-ai-badge: #0F6E74;
+  /* Human = Indigo */
+  --color-human: #4F46E5;
+  --color-human-bg: #EEF2FF;
+  --color-human-badge: #3730A3;
+  /* Customer message */
+  --color-customer-bg: #FFFFFF;
+  --color-customer-border: #E5E7EB;
+  /* Status & confidence (subtle) */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  /* Destructive / Stop AI */
+  --color-danger: #EF4444;
+  --color-danger-bg: #FEE2E2;
+  --color-danger-border: #FCA5A5;
+  --color-danger-text: #991B1B;
+  /* Sidebar / nav */
+  --color-sidebar: #FFFFFF;
+  /* Info = AI teal for badges */
+  --color-info: #2CB1BC;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Inter', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
